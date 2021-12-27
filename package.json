@@ -1,0 +1,24 @@
+{
+  "name": "y-compiles",
+  "version": "1.0.0",
+  "description": "A tools base on rollup to compile the public library",
+  "main": "lib/index.js",
+  "bin": {
+    "y-build": "./bin/father-build.js"
+  },
+  "typings": "./index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rollup",
+    "compile",
+    "babel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yang200258/y-compiles.git"
+  },
+  "author": "little yang",
+  "license": "MIT"
+}
